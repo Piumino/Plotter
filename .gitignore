@@ -156,6 +156,6 @@ $RECYCLE.BIN/
 .DS_Store
 
 #My Ignores
-Plotter.sln
-Plotter.sln.vcxproj
-Plotter.sln.vcxproj.filters
+*.sln
+*.vcxproj
+*.vcxproj.filters
