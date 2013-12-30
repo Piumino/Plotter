@@ -17,7 +17,7 @@ typedef struct Point{
 long double fun(long double x){
 
 
-	return pow(x, 2);
+	return pow(x, 2) + x - log(pow(x, 3) - 1);
 }
 
 
