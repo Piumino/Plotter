@@ -25,8 +25,7 @@ int drawAxis(SDL_Renderer* ren){
 int drawGraph(SDL_Renderer* ren){
 
 	point center = { 350.0, 350.0 };
-	//point p;
-
+	
 	SDL_SetRenderDrawColor(ren, 0, 0, 0, 0); //set the color (0, 0, 0, 0) is black.
 
 	for (point p = { -11, -10 }; p.x < DIM_H / (SCALE * 2); p.x += STEP)
