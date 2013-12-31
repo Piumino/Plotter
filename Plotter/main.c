@@ -8,7 +8,7 @@ int drawAxis(SDL_Renderer* ren){
 	int x0 = 0;
 	int y0 = DIM_W / 2;
 	int x1 = DIM_H;
-	int y1 = DIM_W / 2;
+	int y1 = DIM_W / 2; 
 
 	SDL_SetRenderDrawColor(ren, 0, 0, 0, 0); //set the color (0, 0, 0, 0) is black.
 
@@ -29,7 +29,7 @@ int drawGraph(SDL_Renderer* ren){
 
 	SDL_SetRenderDrawColor(ren, 0, 0, 0, 0); //set the color (0, 0, 0, 0) is black.
 
-	for (point p = { -10, -10 }; p.x < DIM_H / (SCALE * 2); p.x += STEP)
+	for (point p = { -11, -10 }; p.x < DIM_H / (SCALE * 2); p.x += STEP)
 		SDL_RenderDrawPoint(ren, (int)(getX(&center, &p)), (int)(getY(&center, &p)));
 	/*if(SDL_RenderDrawLine(ren, int(getX(&center, &p)), int(getY(&center, &p)), int(getNextX(&center, &p)), int(getNextY(&center, &p)))==-1)
 	return 1;*/
