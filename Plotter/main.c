@@ -8,7 +8,7 @@ int drawAxis(SDL_Renderer* ren){
 	int x0 = 0;
 	int y0 = DIM_W / 2;
 	int x1 = DIM_H;
-	int y1 = DIM_W / 2; /**/
+	int y1 = DIM_W / 2; 
 
 	SDL_SetRenderDrawColor(ren, 0, 0, 0, 0); //set the color (0, 0, 0, 0) is black.
 
